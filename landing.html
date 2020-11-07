@@ -141,7 +141,14 @@
         <script>
             // Your web app's Firebase configuration
             var firebaseConfig = {
-
+                // apiKey: "AIzaSyAaQ3hFOMZQzhvH4pr5tSLMXohAb0Qn6ak",
+                // authDomain: "compile-anywhere-dc2c3.firebaseapp.com",
+                // databaseURL: "https://compile-anywhere-dc2c3.firebaseio.com",
+                // projectId: "compile-anywhere-dc2c3",
+                // storageBucket: "compile-anywhere-dc2c3.appspot.com",
+                // messagingSenderId: "707587850210",
+                // appId: "1:707587850210:web:bde98aaf540d1da2a303bb",
+                // measurementId: "G-PCSQKE5JFF"
                 apiKey: "AIzaSyCGPwnXTYBAYdF021MK6i2sxpIoQwRL89I",
                 authDomain: "compile-anywhere.firebaseapp.com",
                 databaseURL: "https://compile-anywhere.firebaseio.com/",
@@ -156,7 +163,64 @@
             firebase.analytics();
             
             var firestore = firebase.firestore();
+            // var d = new Date();
+            
+            // const docProfile = firestore.collection("faculty-user").doc();
+            // const docRef = firestore.collection("").doc();
+            // const SignUp = document.querySelector("#sign1");
+            // const EmailId = document.querySelector("#newemailid");
+            // const Password = document.querySelector("#newpassword");
+            // const Username = document.querySelector("#username");
+            
+            // SignUp.addEventListener("click" ,function(){
+                
+            //     const sDate = d.toLocaleDateString();
+            //     const sTime = d.toLocaleTimeString();
+            //     const saveEmail = EmailId.value;
+            //     const savePassword = Password.value;
+            //     const saveUsername = Username.value;
+                
+            //     docProfile
+            //     .set({
+            //         Name: "SAMANTHA",
+            //         Date: sDate,
+            //         Time: sTime,
+            //         Username: saveUsername,
+            //         Password: savePassword,
+            //         Email: saveEmail
+            //     })
+            //     .then(function () {
+            //         console.log("status saved!");
+            //         docProfile.get().then(function(user){
+            //             var userid = user.uid;
+            //         })
+            //     })
+                //     firebase.auth().onAuthStateChanged(function(user) {
+                //         if (user) {
+                //             var userid = user.uid;
+                //             docProfile
+                //             .set({
+                //                 UserId: userid,
+                //                 Abcd: "abacas"
+                //             })
+                //             .then(function () {
+                //                 console.log("status saved!");
+                //             })
+                //             .catch(function (error) {
+                //                 console.log("got an error:", error);
+                //             });
+                //         }
+                //     });
+                // })
+                // .catch(function (error) {
+                //     console.log("got an error:", error);
+                // });
 
+                // docProfile
+                // .set({
+                //     User_Uid: "UGfnfjfcnCDFnYfgnHJcc"
+                // })
+            // })
         </script>
         <script src="landing.js"></script>
         
